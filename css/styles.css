@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+}
+.row > div {
+    height: 50px;
+}
+.border {
+    border: solid;
+}
+.col-1 {
+    width: calc(100% / 12);
+    background-color: coral;
+}
+.col-4 {
+    width: calc(100% / 3);
+    background-color: darkcyan;
+    padding: 2%;
+}
+.col-6 {
+    width: calc(100% / 2);
+    background-color: darkorchid;
+}
+.col-8 {
+    width: calc(100% / 12 * 8);
+    background-color: chocolate; 
+}
+.conteiner {
+    border: solid 2px gray;
+}
